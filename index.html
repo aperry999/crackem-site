@@ -59,6 +59,8 @@
   .btn:active { transform: translate(3px, 3px); box-shadow: 1px 1px 0 var(--ink); }
   .btn:focus-visible { outline: 3px solid var(--maroon); outline-offset: 4px; }
   .sub-cta { font-size: 14.5px; color: var(--muted); margin-top: 14px; }
+  .sub-cta a { color: var(--maroon); font-weight: 700; }
+  .stores { display: flex; flex-wrap: wrap; gap: 14px; }
   .steps {
     display: grid; gap: 16px; grid-template-columns: repeat(3, 1fr);
     margin: 28px 0 44px; padding: 0; list-style: none;
@@ -92,6 +94,7 @@
   @media (max-width: 640px) {
     .steps { grid-template-columns: 1fr; }
     .btn { display: block; text-align: center; }
+    .stores { flex-direction: column; }
     .hero { padding-top: 20px; }
   }
 </style>
@@ -106,8 +109,12 @@
       <section class="hero">
         <span class="notice">New version brewing</span>
         <h1>Get rewarded for visiting breweries.</h1>
-        <p class="lede">Crackem is the mobile app that rewards you for getting out to your local breweries. We're building a brand-new version of the app right now. Follow us on Instagram to hear the minute it's ready.</p>
-        <a class="btn" href="https://www.instagram.com/crackem.beer/">Follow @crackem.beer</a>
+        <p class="lede">Crackem is the mobile app that rewards you for getting out to your local breweries. Get the app today, and keep an eye out: we're building a brand-new version right now.</p>
+        <div class="stores">
+          <a class="btn" href="https://apps.apple.com/us/app/crackem/id1475988189">Download on the App Store</a>
+          <a class="btn" href="https://play.google.com/store/apps/details?id=com.revioxapp.revioxapp">Get it on Google Play</a>
+        </div>
+        <p class="sub-cta">Want to hear when the new version drops? Follow <a href="https://www.instagram.com/crackem.beer/">@crackem.beer</a> on Instagram.</p>
       </section>
 
       <ul class="steps">
