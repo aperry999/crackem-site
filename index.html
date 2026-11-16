@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crackem | Instagram help for breweries</title>
+<meta name="description" content="Crackem helps breweries without a marketing team get more out of Instagram. Get a free Instagram checkup for your brewery.">
+<meta property="og:title" content="Crackem | Instagram help for breweries">
+<meta property="og:description" content="Free Instagram checkup for breweries, plus ads made from the posts you already share.">
+<meta property="og:url" content="https://crackem.us/">
+<meta name="theme-color" content="#9a5b13">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%239a5b13'/%3E%3Ctext x='16' y='23' font-family='Arial,sans-serif' font-weight='800' font-size='19' text-anchor='middle' fill='%23fff8ec'%3EC%3C/text%3E%3C/svg%3E">
+<style>
+  :root {
+    --bg: #fbf7f0;
+    --card: #ffffff;
+    --ink: #1c1a17;
+    --muted: #5f5a52;
+    --brown: #9a5b13;
+    --amber: #eba53b;
+    --amber-hover: #f0b352;
+    --line: #e7dfd2;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 22px 0; }
+  .brand {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-weight: 800; font-size: 22px; letter-spacing: -0.02em;
+    color: var(--ink); text-decoration: none;
+  }
+  .mark {
+    width: 32px; height: 32px; border-radius: 8px; background: var(--brown);
+    color: #fff8ec; display: grid; place-items: center; font-size: 19px;
+  }
+  .notice {
+    display: inline-block;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 12.5px; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--brown); background: #f6ead6; border: 1px solid #ecd6b1;
+    padding: 6px 12px; border-radius: 999px;
+  }
+  .hero { padding: 36px 0 28px; }
+  h1 {
+    font-size: clamp(32px, 6.2vw, 50px); line-height: 1.08;
+    letter-spacing: -0.03em; margin: 18px 0 16px; font-weight: 800;
+  }
+  .lede { font-size: 19px; color: var(--muted); max-width: 36em; margin: 0 0 28px; }
+  .btn {
+    display: inline-block; background: var(--amber); color: var(--ink);
+    font-weight: 700; font-size: 18px; text-decoration: none;
+    padding: 15px 26px; border-radius: 10px;
+  }
+  .btn:hover, .btn:focus-visible { background: var(--amber-hover); }
+  .btn:focus-visible { outline: 3px solid var(--brown); outline-offset: 3px; }
+  .sub-cta { font-size: 14.5px; color: var(--muted); margin-top: 12px; }
+  .steps {
+    display: grid; gap: 14px; grid-template-columns: repeat(3, 1fr);
+    margin: 28px 0 40px; padding: 0; list-style: none;
+  }
+  .steps li {
+    background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 18px;
+  }
+  .steps .n {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    color: var(--brown); font-size: 13px; letter-spacing: 0.1em;
+  }
+  .steps h2 { font-size: 18px; margin: 6px 0 6px; letter-spacing: -0.01em; }
+  .steps p { margin: 0; font-size: 15.5px; color: var(--muted); }
+  .brewing {
+    background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--amber);
+    border-radius: 14px; padding: 20px 22px; margin-bottom: 40px;
+  }
+  .brewing h2 { margin: 0 0 6px; font-size: 20px; letter-spacing: -0.01em; }
+  .brewing p { margin: 0; color: var(--muted); }
+  footer {
+    border-top: 1px solid var(--line); padding: 22px 0 36px;
+    font-size: 15px; color: var(--muted);
+    display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between;
+  }
+  footer a { color: var(--brown); font-weight: 600; text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  @media (max-width: 640px) {
+    .steps { grid-template-columns: 1fr; }
+    .btn { display: block; text-align: center; }
+    .hero { padding-top: 20px; }
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="/"><span class="mark" aria-hidden="true">C</span>Crackem</a>
+    </header>
+
+    <main>
+      <section class="hero">
+        <span class="notice">New site brewing</span>
+        <h1>Instagram help for breweries without a marketing team.</h1>
+        <p class="lede">Most taproom Instagram accounts are run by whoever has a free minute behind the bar. Crackem shows you what's working and turns the posts you already make into ads that bring people through the door.</p>
+        <a class="btn" href="https://checkup.crackem.us/?src=site">Get your free Instagram checkup</a>
+        <p class="sub-cta">Free, no login. Your report lands in your inbox in a few minutes.</p>
+      </section>
+
+      <ul class="steps">
+        <li>
+          <span class="n">01</span>
+          <h2>Free checkup</h2>
+          <p>We read your recent posts and email you a report on what's landing, your best days to post, and three things to try this month.</p>
+        </li>
+        <li>
+          <span class="n">02</span>
+          <h2>Ads from your own posts</h2>
+          <p>We build ad creative from the photos and posts you already share, so there's nothing new to shoot.</p>
+        </li>
+        <li>
+          <span class="n">03</span>
+          <h2>Barely any work for you</h2>
+          <p>Keep pouring. We handle the ad side so your team doesn't have to learn another tool.</p>
+        </li>
+      </ul>
+
+      <section class="brewing">
+        <h2>A new crackem.us is in the works</h2>
+        <p>We're rebuilding this site from the ground up. Until it's ready, the free checkup is the best way to see what Crackem can do for your brewery.</p>
+      </section>
+    </main>
+
+    <footer>
+      <span>&copy; <span id="y">2026</span> Crackem</span>
+      <span>Instagram: <a href="https://www.instagram.com/crackem.beer/">@crackem.beer</a></span>
+    </footer>
+  </div>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
