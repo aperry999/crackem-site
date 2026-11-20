@@ -1,3 +1,8 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "redirects": [
+    { "source": "/reviox_privacy_policy/", "destination": "/reviox_privacy_policy", "permanent": true },
+    { "source": "/removedata/", "destination": "/removedata", "permanent": true },
+    { "source": "/privacy", "destination": "/reviox_privacy_policy", "permanent": true }
+  ]
 }

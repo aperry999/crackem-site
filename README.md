@@ -4,6 +4,10 @@ Static pages served at crackem.us while the full site is rebuilt. No build step:
 
 The checkup button links to https://checkup.crackem.us/?src=site so signups from here are tagged "site".
 
+## Privacy policy (`/reviox_privacy_policy`)
+
+Copied word for word from the old WordPress page (last updated November 01, 2021). Keep this URL as is: the app store listings link to it. `/privacy` and the old trailing-slash URL redirect here. Section 13's request link now points to `/removedata`.
+
 ## Data removal form (`/removedata`)
 
 Keep this URL as is. Google Play's listing points to it for account deletion requests.
